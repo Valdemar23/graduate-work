@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="216.0" prefWidth="338.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ngram.MainInL4">
+   <children>
+      <Label layoutX="50.0" layoutY="23.0" text="Select amount gramm" textFill="#17da1e">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="threegram" layoutX="38.0" layoutY="112.0" mnemonicParsing="false" text="threegram" textFill="#a70a90">
+         <toggleGroup>
+            <ToggleGroup fx:id="methodRecognition" />
+         </toggleGroup>
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="bigram" layoutX="38.0" layoutY="72.0" mnemonicParsing="false" selected="true" text="bigram" textFill="#a70a90" toggleGroup="$methodRecognition">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </RadioButton>
+      <Button layoutX="137.0" layoutY="177.0" mnemonicParsing="false" onAction="#selectNGram" prefHeight="27.0" prefWidth="64.0" text="Select" />
+      <RadioButton fx:id="fourgram" layoutX="38.0" layoutY="153.0" mnemonicParsing="false" selected="true" text="fourgram" textFill="#a70a90" toggleGroup="$methodRecognition" />
+   </children>
+</Pane>

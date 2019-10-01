@@ -1,0 +1,7 @@
+entity/Description.class
+entity/Webpages.class
+entity/Tegs.class
+mavenjavafxapp/MainApp.class
+hibernate/HibernateUtil.class
+entity/Websites.class
+mavenjavafxapp/MainController.class

@@ -1,0 +1,4 @@
+~ training.language.fr.txt
+Positive positive-verb.txt
+Negative negative-verb.txt
+Prof prof.txt

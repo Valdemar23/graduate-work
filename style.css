@@ -1,0 +1,72 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+h1{
+	font:bold 24px Tahoma;
+	color: #444;
+	text-align: center;
+	color:white;
+}
+h2{
+	font:bold 22px Tahoma;
+	color:#444;
+	text-align: center;
+}
+h3{
+
+}
+
+#header{
+	width: 100%;
+	height: auto;
+	background: #0282d0;
+	color:yellow;
+}
+#header p{
+	font:bold 18px Times;
+}
+
+#content{
+	width:100%-;
+	height: auto;
+	background: pink;
+	overflow: hidden;
+	padding:0 0;
+	border-radius: 15px 15px 0 0;
+	box-shadow: 0 6px 10px #143555;
+}
+#pic{
+	width: 100%;
+	height: auto;
+	background: url(../img/gay.png) 100% 100% no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	margin:0 0 1% 0;
+	color: black;
+	border-bottom: 1px solid #bfbebe;
+}
+#pic img{
+	float:left;
+}
+#text{
+
+	width: 75%;
+	height: auto;
+	float:left;
+	margin:1% 0 5% 0;
+	padding:0 2%;
+
+}
+#text p{
+	font: 18px Tahoma;
+	color: #444;
+	padding:1% 0;/*Невеликий відступ*/
+}
+#text ul{
+	padding: 2% 4%;
+}
+#text ul li{
+	padding: 1%;
+	list-style: inside url(../img/indicator-keyboard-En.svg);
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ngram.MainInL4">
+   <children>
+      <TextField fx:id="enterString" layoutX="215.0" layoutY="76.0" />
+      <Button layoutX="269.0" layoutY="118.0" mnemonicParsing="false" onAction="#act" text="Button" />
+      <Label fx:id="trueOrFalse" layoutX="215.0" layoutY="161.0" text="Label" />
+      <RadioButton fx:id="bigram" layoutX="14.0" layoutY="84.0" mnemonicParsing="false" selected="true" text="2-gram">
+         <toggleGroup>
+            <ToggleGroup fx:id="ngram" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="threegram" layoutX="14.0" layoutY="109.0" mnemonicParsing="false" text="3-gram" toggleGroup="$ngram" />
+      <RadioButton fx:id="fourgram" layoutX="14.0" layoutY="134.0" mnemonicParsing="false" text="4-gram" toggleGroup="$ngram" />
+      <Label fx:id="borderLabel" layoutX="215.0" layoutY="193.0" text="Label" />
+      <Label fx:id="currentGoals" layoutX="215.0" layoutY="224.0" text="Label" />
+      <Label layoutX="14.0" layoutY="61.0" text="Choose n-gram:" />
+      <Label fx:id="outputLabel" layoutX="215.0" layoutY="46.0" text="Label" />
+   </children>
+</Pane>
